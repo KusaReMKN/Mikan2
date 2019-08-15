@@ -1,0 +1,38 @@
+
+Name	蜜柑
+Code	Mikan
+Witer	五十嵐 宗介
+
+SMOPUIM Version 3.00.
+
+【蜜柑について】
+蜜柑は SMOPUIM の後続のバージョンとして作られます。
+
+蜜柑は今までのシステムとは大きく異なります。
+・SMOPUIM MAIN MENU を廃止しました。
+・蜜柑の専用として作られたプログラムはウィンドウを表示します。
+・多くの画面モードに対応しているはずです。
+・システムの表示色を変更できます。
+・矢印キーからの入力に対応しています。
+・独自の実行可能形式を持っています。
+・インストーラをつかってインストールします。
+・DOS 環境変数を使っています。
+・グラフィックロゴを採用しました。
+
+蜜柑は未完成です。
+
+【バージョンについて】
+Mikan Version 0. 0. 0001.	テキストによるバージョン表示。
+Mikan Version 0. 1. XXXX.	Mikan 本体からバージョン表示。
+Mikan Version 0. 2. XXXX.	Mikan Window からバージョン表示。
+Mikan Version 0. 3. XXXX.	Mikan Clock を追加。
+Mikan Version 0. 4. XXXX.	各種機能をアップグレード。
+Mikan Version 0. 5. XXXX.	タイトルロゴを表示。
+Mikan Version 0. 6. XXXX.	Mikan Color Setup を追加。
+Mikan Version 0. 7. XXXX.	小規模のシステム改良。
+Mikan Version 0. 8. XXXX.	速度向上、カーソルの大きさを変更。
+Mikan Version 0. 9. XXXX.	Mikan Executable File Format の採用。
+Mikan Version 1. 0. 0231.	多少のシステム改良、インストーラの追加。
+Mikan Version 1. 1. XXXX.	Window Back Test の保存β版の追加。
+Mikan Version 1. 2. 0352.	Mikan 最終バージョン。
+Mikan Version 1. 8. XXXX.	開発再開。
