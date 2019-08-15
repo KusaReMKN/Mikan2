@@ -1,0 +1,38 @@
+
+CC	=	WCL
+FLAGS	=	-Ob -Om -Oi -Ol -Oe -Or -Os -3
+HEADER	=	MknCol.H MknCur.H MknScr.H MknDef.H MknLib.H MknSet.H MknAsm.H MknRun.H MknGrf.H MknDrW.H
+PROGRAM	=	Mikan.Exe Exe2Mkx.Exe MknWin.Mkx MknVer.Mkx MknClk.Mkx MknCst.Mkx MknKos.Mkx SetUp.Exe
+MKNEXE = Exe2Mkx
+
+ALL: $(PROGRAM)
+
+Mikan.Exe: Mikan.C $(HEADER)
+	$(CC) Mikan.C $(FLAGS)
+
+Exe2Mkx.Exe: Exe2Mkx.C $(HEADER)
+	$(CC) Exe2Mkx.C $(FLAGS)
+
+MknWin.Mkx: MknWin.C $(HEADER)
+	$(CC) MknWin.C $(FLAGS)
+	$(MKNEXE) MknWin.Exe
+
+MknVer.Mkx: MknVer.C $(HEADER)
+	$(CC) MknVer.C $(FLAGS)
+	$(MKNEXE) MknVer.Exe
+
+MknClk.Mkx: MknClk.C $(HEADER)
+	$(CC) MknClk.C $(FLAGS)
+	$(MKNEXE) MknClk.Exe
+
+MknCst.Mkx: MknCst.C $(HEADER)
+	$(CC) MknCst.C $(FLAGS)
+	$(MKNEXE) MknCst.Exe
+
+MknKos.Mkx: MknKos.C $(HEADER)
+	$(CC) MknKos.C $(FLAGS)
+	$(MKNEXE) MknKos.Exe
+
+SetUp.Exe:	Setup.C $(HEADER)
+	$(CC) SetUp.c $(FLAGS)
+
